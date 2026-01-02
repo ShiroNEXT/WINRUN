@@ -1,5 +1,0 @@
-/home/yuruko/Documents/winrun/build/CMakeFiles/winrun.dir
-/home/yuruko/Documents/winrun/build/CMakeFiles/edit_cache.dir
-/home/yuruko/Documents/winrun/build/CMakeFiles/rebuild_cache.dir
-/home/yuruko/Documents/winrun/build/CMakeFiles/winrun_autogen_timestamp_deps.dir
-/home/yuruko/Documents/winrun/build/CMakeFiles/winrun_autogen.dir
