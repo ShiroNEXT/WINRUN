@@ -1,0 +1,30 @@
+[package]
+name = "redflag"
+version = "0.1.0"
+edition = "2021"
+authors = ["TAKAMASU Project"]
+
+[dependencies]
+actix-web = "4"
+actix-cors = "0.6"
+actix-multipart = "0.4"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tokio = { version = "1", features = ["rt-multi-thread", "macros"] }
+sysinfo = "0.29"
+anyhow = "1"
+thiserror = "1"
+base64 = "0.22"
+argon2 = { version = "0.5", default-features = false, features = ["std", "password-hash"] }
+password-hash = "0.5"
+winreg = "0.52"
+windows = { version = "0.57", features = [
+    "Win32_Foundation",
+    "Win32_System_Registry",
+    "Win32_System_SystemServices",
+    "Win32_System_Threading"
+] }
+tempfile = "3"
+log = "0.4"
+env_logger = "0.11"
+futures-util = "0.3"
