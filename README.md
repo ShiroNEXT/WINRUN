@@ -1,5 +1,5 @@
 # WINRUN
-New way to run windows app on linux via virtual machine.
+Running windows programs on linux based operating system with WINRUN. By running windows on qemu/kvm manage by libvirt and communicate with Microsoft Remote Desktop app Protocol and our windows management service.
 
 ## ⚠️ notice ⚠️
 
